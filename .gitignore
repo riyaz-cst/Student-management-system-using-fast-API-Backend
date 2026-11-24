@@ -1,0 +1,5 @@
+/.assessment/*
+__pycache__
+*.pyc 
+*.mypy.cache 
+.idea/
