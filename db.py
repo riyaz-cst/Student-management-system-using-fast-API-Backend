@@ -27,7 +27,7 @@ SERVER_URL = "postgresql+ psycopg2://studentsinfo_r4cg_user:J49ZbBJ6KLHfdJHsDLL3
 # # Full address of our database
 # DATABASE_URL = f"{SERVER_URL}/{DB_NAME}"
 
-engine = create_engine(DATABASE_URL)
+engine = create_engine(SERVER_URL)
 session_local = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 base = declarative_base()
 
